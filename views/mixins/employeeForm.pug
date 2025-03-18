@@ -42,4 +42,7 @@ mixin employeeForm(url, employee, jobtitles, stateslist)
                 input(id='phonenumber' name='phonenumber' type='number' value=employee.phonenumber)
 
             div.year
-                label(for='year
+                label(for='yearhired') Year Hired:
+                input(id='yearhired' name='yearhired' type='number' value=employee.yearhired)
+
+        button(type='submit') Submit
